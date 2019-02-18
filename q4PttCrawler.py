@@ -71,5 +71,5 @@ def getPTTArticle(board_name, page_num=10000):
 if __name__ == '__main__':
     popular_board = getPTTBoard()
     for i in popular_board:
-        print(getPTTArticle(i, 2))
-        # print(getPTTArticle(i))
+        # print(getPTTArticle(i, 2))
+        print(getPTTArticle(i))
